@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+    long double A, B;
+
+    scanf("%Lf %Lf", &A, &B);
+
+    printf("%.12Lf", A/B);
+
+    return 0;
+}
