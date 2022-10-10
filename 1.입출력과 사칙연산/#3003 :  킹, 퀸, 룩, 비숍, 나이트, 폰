@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int king, queen, rook, bishop, knight, pawn;
+    king = 1;
+    queen = 1;
+    rook = 2;
+    bishop = 2;
+    knight = 2;
+    pawn = 8;
+    
+    int a, b, c, d, e, f;
+    scanf("%d %d %d %d %d %d", &a, &b, &c, &d, &e, &f);
+    
+    printf("%d %d %d %d %d %d", king-a, queen-b, rook-c, bishop-d, knight-e, pawn-f);
+    
+    return 0;
+    
+    
+}
