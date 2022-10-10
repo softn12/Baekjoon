@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int buttayear, AD;
+    
+    scanf("%d", &buttayear);
+    
+    AD = buttayear - 543;
+    
+    printf("%d", AD);
+    
+    return 0;
+}
